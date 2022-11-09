@@ -1,26 +1,47 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <link rel="stylesheet" href="/style.css"/>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width">
     <meta http-equiv="X-UA-compatible" content="ie=edge">
     <title>Recipes</title>
     <body>
-        <h1> Homemade Mac and Cheese</h1>
-        <div style="width:image width px; font-size:80%; text-align:center;"><img src="/image.webp" alt="mac and cheese recipe" width="300" height="300" style="padding-bottom:0.5em;" /> 
-            <p>This from-scratch macaroni and cheese recipe will become a staple in your dinner rotation. </p>
-       </div>
-    
+        <h1 class="page-title"> Homemade Mac and Cheese</h1>
+        <div class="gallery">
+            <figure class="gallery__item--1 ">
+              <img src="/image.webp" class="gallery__img" alt="Image 1">
+            </figure>
+            <figure class="gallery__item--2">
+              <img src="/imag2.webp" class="gallery__img" alt="Image 2">
+            </figure>
+            <figure class="gallery__item--3">
+                <img src="/image3.webp" class="gallery__img" alt="Image 3">
+              </figure>
+          </div>
+
+<!--
+        <figure>
+        <div class="img-zoom-container"  text-align=center;>
+            <img src="/image.webp" width="250" height="300"  /> 
+            <img src="/imag2.webp" width="250" height="300" /> 
+            <figcaption> This from-scratch macaroni and cheese recipe will become a staple in your dinner rotation. 
+        </figcaption>
+       </div>-->
+    </figure> 
+       <p>
         <h3>Homemade Mac and Cheese Ingredients </h3>
         <h4>These are the ingredients you'll need to make the best homemade mac and cheese of your life: </h4>
-        <ul>
-            <li>Macaroni: This homemade mac and cheese starts with a box of uncooked macaroni noodles.</li>
-            <li>Butter and flour: You'll need butter and flour to make a roux for the cheese sauce. You'll also need two tablespoons of butter for the topping.</li>
-            <li>Milk: Use whole milk for the richest flavor and texture.</li>
-            <li>Cheese: This baked mac and cheese recipe calls for Cheddar and Parmesan cheeses.</li>
-            <li>Seasonings: Salt and pepper goes into the sauce, while paprika is sprinkled over the topping.</li>
-            <li>Bread crumbs: Use store-bought dried bread crumbs or make your own at home. </li>
-        </ul>
+        <ul class="ingredients-list">
+            <li class="ingredients-list-items">8 ounces uncooked elbow macaroni</li>
+            <li class="ingredients-list-items">¼ cup salted butter</li>
+            <li class="ingredients-list-items">3 tablespoons all-purpose flour</li>
+            <li class="ingredients-list-items">2 ½ cups milk, or more as needed</li>
+            <li class="ingredients-list-items">2 cups shredded sharp Cheddar cheese</li>
+            <li class="ingredients-list-items">½ cup finely grated Parmesan cheese</li>
+            <li class="ingredients-list-items">salt and ground black pepper to taste (Optional)</li>
+            <li class="ingredients-list-items">Bread crumbs</li>
+        </ul></p>
 
         <p>
             <h4>How to Make Mac and Cheese</h4>
@@ -30,14 +51,28 @@
                 <li>Make the topping: Melt two tablespoons of butter in a skillet, add the bread crumbs, and toast until the crumbs are brown. Spread the topping over the macaroni and cheese, then sprinkle with paprika.</li>
                 <li>Bake the mac and cheese: Bake in the preheated oven until the topping is golden brown. </li>
               </ol> 
-              <ul>
-                <li><a href="https://www.allrecipes.com/recipe/280246/chef-johns-tuna-noodle-casserole/">Chef John's Tuna Noodle Casserole</a></li>
-                <li><a href="https://www.allrecipes.com/recipe/231808/grandmas-ground-beef-casserole/">Grandma's Ground Beef Casserole</a></li>
-                <li><a href="https://www.allrecipes.com/recipe/44989/quick-and-easy-green-chile-chicken-enchilada-casserole/">Quick and Easy Green Chile Chicken Enchilada Casserole</a></li>
-              </ul>
-        </p>
-
-
+            </p>
+            <div class ='row'>
+              <div class="card">
+                <img src="/tuna.webp" alt="Avatar" style="width:100%">
+                <div class="container">
+                    <a href="https://www.allrecipes.com/recipe/280246/chef-johns-tuna-noodle-casserole/">Chef John's Tuna Noodle Casserole</a>
+                </div>
+            </div> 
+                <div class="card">
+                <img src="/beef.webp" alt="Avatar" style="width:100%">
+                <div class="container">
+                    <a href="https://www.allrecipes.com/recipe/231808/grandmas-ground-beef-casserole/">Grandma's Ground Beef Casserole</a>
+                </div>
+                </div>
+                <div class="card">
+                    <img src="/chicken.webp" alt="Avatar" style="width:100%">
+                    <div class="container">
+                        <a href="https://www.allrecipes.com/recipe/44989/quick-and-easy-green-chile-chicken-enchilada-casserole/">Green Chile Chicken Enchilada Casserole</a>
+                    </div>
+                </div>
+                   </div>  
+        
         <script src="index.js"></script>
     </body>
 </head>
